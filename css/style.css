@@ -5,13 +5,8 @@
 
 /* main */
 
-main {
-    background-color: yellow;
-   
-}
 
 .title-conteiner {
-    background-color: blue;
     display: flex;
     flex-direction: column;
     text-align: center;
