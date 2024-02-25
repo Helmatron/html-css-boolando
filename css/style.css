@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    max-width: 1920px;
+}
+
+/* main */
+
+main {
+    background-color: yellow;
+}
+
+.title-conteiner {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main-conteiner {
+    display: flex;
+    background-color: yellowgreen;
+    text-align: justify;
+    
+}
