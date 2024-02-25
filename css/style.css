@@ -15,11 +15,16 @@
 
 .title-conteiner .title {
     margin: 20px auto;
+    font-family: sans-serif;
+    font-size: small;
+    font-weight: 600;
 }
 
+
+/* commenti di riferimento gestione flex box */
 .main-conteiner {
-    background-color: yellowgreen;
     text-align: justify;
+    /* border: 1px solid black; */
     max-width: 1024px;
     margin: 0 auto;
     padding: 20px 0px;
@@ -27,6 +32,7 @@
 
 .main-conteiner .row {
     display: flex;
+    /* border: 1px solid black; */
     flex-wrap: wrap;
     justify-content: center;
     width: 800px
@@ -35,10 +41,32 @@
 }
 
 .main-conteiner .row .items {
-    background: orange;
-    width: 250px;
-    height: 250px;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(232, 232, 232);
+    width: 300px;
+    height: auto;
     margin: 5px;
     
+}
+
+/* text-style-card */
+.didascalia1 {
+    padding: 5px 5px 0px 5px;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.didascalia2 {
+    padding: 0px 5px;
+    font-family: sans-serif;
+    font-size: small;
+    text-transform: uppercase;
+    font-weight: 1000;
+}
+
+.didascalia3 {
+    padding: 0px 5px 5px 5px;
+    font-family: sans-serif;
+    font-size: x-small;
 }
