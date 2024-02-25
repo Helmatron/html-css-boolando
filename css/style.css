@@ -27,7 +27,7 @@
     /* border: 1px solid black; */
     max-width: 1024px;
     margin: 0 auto;
-    padding: 20px 0px;
+    
 }
 
 .main-conteiner .row {
@@ -46,7 +46,7 @@
     border: 1px solid rgb(232, 232, 232);
     width: 300px;
     height: auto;
-    margin: 5px;
+    margin: 10px 10px 30px 10px;
     
 }
 
@@ -69,4 +69,9 @@
     padding: 0px 5px 5px 5px;
     font-family: sans-serif;
     font-size: x-small;
+}
+
+/* Utility */
+.did3-color {
+    color: red;
 }
