@@ -1,13 +1,13 @@
 * {
     margin: 0px;
     padding: 0px;
-    max-width: 1920px;
 }
 
 /* main */
 
 main {
     background-color: yellow;
+   
 }
 
 .title-conteiner {
@@ -15,11 +15,35 @@ main {
     display: flex;
     flex-direction: column;
     text-align: center;
+    
+}
+
+.title-conteiner .title {
+    margin: 20px auto;
 }
 
 .main-conteiner {
-    display: flex;
     background-color: yellowgreen;
     text-align: justify;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+.main-conteiner .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 800px
+    height: auto;
+    
+}
+
+.main-conteiner .row .items {
+    background: orange;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    margin: 5px;
     
 }
